@@ -1,0 +1,63 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "usr_elcdif.h": "c",
+        "usr_enet.h": "c",
+        "fsl_clock.h": "c",
+        "freertos.h": "c",
+        "portable.h": "c",
+        "portmacro.h": "c",
+        "semphr.h": "c",
+        "sockets.h": "c",
+        "timeouts.h": "c",
+        "board.h": "c",
+        "queue.h": "c",
+        "usr_include.h": "c",
+        "sys.h": "c",
+        "fsl_gpio.h": "c",
+        "clock_config.h": "c",
+        "httpsrv.h": "c",
+        "gui.h": "c",
+        "apptask.h": "c"
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#FF1493",
+            "#40E0D0",
+            "#8A2BE2"
+        ],
+        "Red"
+    ],
+    "bracketPairColorizer.independentPairColors": [
+        [
+            "()",
+            [
+                "#FF1493",
+                "#40E0D0",
+                "#8A2BE2"
+            ],
+            "Red"
+        ],
+        [
+            "[]",
+            [
+                "#FF1493",
+                "#40E0D0",
+                "#8A2BE2"
+            ],
+            "Red"
+        ],
+        [
+            "{}",
+            [
+                "#FF1493",
+                "#40E0D0",
+                "#8A2BE2"
+            ],
+            "Red"
+        ]
+    ]
+}

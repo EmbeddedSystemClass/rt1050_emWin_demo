@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "includePath": [
+                "C:/Keil_v5/ARM/ARMCC/include",
+                "C:/Keil_v5/ARM/ARMCLANG/include",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/board",
+                "${workspaceFolder}/emwin/emWin_header",
+                "C:/Keil_v5/ARM/ARMCC/include/rw"
+            ],
+            "defines": [
+                "XIP_EXTERNAL_FLASH=1",
+                "XIP_BOOT_HEADER_ENABLE=1",
+                "XIP_BOOT_HEADER_DCD_ENABLE=1", 
+                "FSL_FEATURE_PHYKSZ8081_USE_RMII50M_MODE", 
+                "CPU_MIMXRT1052DVL6B", 
+                "USE_RTOS=1", 
+                "PRINTF_ADVANCED_ENABLE=1", 
+                "HTTPSRV_CFG_WEBSOCKET_ENABLED=1", 
+                "FSL_RTOS_FREE_RTOS,SKIP_SYSCLK_INIT",
+                "FSL_SDK_ENABLE_DRIVER_CACHE_CONTROL=1"
+            ],
+            "compilerPath": "D:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "clang_format": {
+        "style": "file",
+        "fallback-style": "LLVM",
+        "sort-includes": false
+    },
+    "version": 4
+}
